@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  broker:
+    image: eclipse-mosquitto:latest
+    container_name: karoonte-broker
+    restart: unless-stopped
+    ports:
+      - "1883:1883" # Porta MQTT padrão
+      - "8080:8080" # Porta para WebSockets
+    volumes:
+      - ./config/mosquitto.conf:/mosquitto/config/mosquitto.conf

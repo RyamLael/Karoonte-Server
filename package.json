@@ -1,0 +1,16 @@
+{
+  "name": "kahoot-mqtt-server",
+  "version": "1.0.0",
+  "description": "Servidor central para jogo estilo Kahoot via MQTT (ESP32 + Painel Web)",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "simulate": "node src/test/simulate.js"
+  },
+  "dependencies": {
+    "mqtt": "^5.10.1",
+    "dotenv": "^16.4.5"
+  }
+}

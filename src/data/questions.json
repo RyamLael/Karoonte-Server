@@ -1,0 +1,62 @@
+[
+  {
+    "id_pergunta": 1,
+    "enunciado": "Qual é o protocolo de comunicação utilizado neste projeto?",
+    "alternativas": {
+      "A": "HTTP",
+      "B": "MQTT",
+      "C": "Websocket",
+      "D": "FTP"
+    },
+    "resposta_correta": "B",
+    "tempo_limite_segundos": 20
+  },
+  {
+    "id_pergunta": 2,
+    "enunciado": "Qual microcontrolador é usado nos controles físicos?",
+    "alternativas": {
+      "A": "Arduino Uno",
+      "B": "Raspberry Pi",
+      "C": "ESP32",
+      "D": "STM32"
+    },
+    "resposta_correta": "C",
+    "tempo_limite_segundos": 20
+  },
+  {
+    "id_pergunta": 3,
+    "enunciado": "No padrão MQTT, qual o papel do 'broker'?",
+    "alternativas": {
+      "A": "Armazenar o banco de dados do jogo",
+      "B": "Intermediar mensagens entre publishers e subscribers",
+      "C": "Renderizar a interface web",
+      "D": "Gerar a pontuação dos jogadores"
+    },
+    "resposta_correta": "B",
+    "tempo_limite_segundos": 15
+  },
+  {
+    "id_pergunta": 4,
+    "enunciado": "Qual nível de QoS garante 'pelo menos uma entrega'?",
+    "alternativas": {
+      "A": "QoS 0",
+      "B": "QoS 1",
+      "C": "QoS 2",
+      "D": "QoS 3"
+    },
+    "resposta_correta": "B",
+    "tempo_limite_segundos": 15
+  },
+  {
+    "id_pergunta": 5,
+    "enunciado": "Por que o debounce é necessário nos botões físicos?",
+    "alternativas": {
+      "A": "Para economizar energia do ESP32",
+      "B": "Para evitar leituras falsas de clique por ruído elétrico",
+      "C": "Para criptografar o sinal do botão",
+      "D": "Para conectar ao Wi-Fi mais rápido"
+    },
+    "resposta_correta": "B",
+    "tempo_limite_segundos": 20
+  }
+]
